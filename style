@@ -1,0 +1,15 @@
+.svg-filters {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+textarea {
+  -webkit-filter: url("#filter");
+  filter: url("/#filter");
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  box-shadow: 0 0 0 10px transparent;
+}
